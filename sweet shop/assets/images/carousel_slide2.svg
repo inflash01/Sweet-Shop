@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="slide2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7a2a2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#slide2Grad)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="80" r="18" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="300" cy="200" r="22" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Dry fruits illustration -->
+  <g transform="translate(300, 150)">
+    <!-- Almonds -->
+    <ellipse cx="-30" cy="-15" rx="10" ry="18" fill="#D2691E" transform="rotate(-25 -30 -15)"/>
+    <ellipse cx="0" cy="-20" rx="10" ry="18" fill="#8B4513" transform="rotate(30 0 -20)"/>
+    
+    <!-- Cashew -->
+    <path d="M 20 -10 Q 30 0 25 15" fill="#DAA520" stroke="#8B7500" stroke-width="2"/>
+    
+    <!-- Pistachio -->
+    <circle cx="-40" cy="15" r="7" fill="#6B8E23"/>
+    <circle cx="30" cy="20" r="7" fill="#7CB342"/>
+  </g>
+</svg>

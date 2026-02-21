@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="100%" height="100%" fill="#fbfcff"/>
+  <g transform="translate(30,70)">
+    <circle cx="70" cy="80" r="32" fill="#ff6b6b" stroke="#fff" stroke-width="6"/>
+    <circle cx="160" cy="80" r="28" fill="#ffd166" stroke="#fff" stroke-width="6"/>
+    <circle cx="250" cy="80" r="30" fill="#63c9ff" stroke="#fff" stroke-width="6"/>
+    <circle cx="110" cy="160" r="26" fill="#8d7aff" stroke="#fff" stroke-width="6"/>
+  </g>
+  <text x="50%" y="350" text-anchor="middle" fill="#6b4a3a" font-family="Segoe UI, Arial" font-size="20">Hard Candy Assortment</text>
+</svg>

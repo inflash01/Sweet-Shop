@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="almondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2B48C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0826D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main rectangle -->
+  <rect x="45" y="55" width="110" height="100" fill="url(#almondGrad)" rx="6"/>
+  
+  <!-- Almond pieces embedded -->
+  <ellipse cx="65" cy="75" rx="8" ry="12" fill="#8B4513" transform="rotate(-25 65 75)"/>
+  <ellipse cx="100" cy="65" rx="7" ry="11" fill="#8B4513" transform="rotate(15 100 65)"/>
+  <ellipse cx="135" cy="85" rx="9" ry="13" fill="#8B4513" transform="rotate(-20 135 85)"/>
+  <ellipse cx="75" cy="120" rx="8" ry="12" fill="#8B4513" transform="rotate(30 75 120)"/>
+  <ellipse cx="125" cy="130" rx="7" ry="11" fill="#8B4513" transform="rotate(-15 125 130)"/>
+  
+  <!-- Top shine -->
+  <rect x="45" y="55" width="110" height="15" fill="rgba(255,255,255,0.3)" rx="6"/>
+  
+  <!-- Texture lines -->
+  <line x1="50" y1="95" x2="150" y2="95" stroke="#8B4513" stroke-width="1" opacity="0.3"/>
+  <line x1="50" y1="130" x2="150" y2="130" stroke="#8B4513" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Shadow -->
+  <ellipse cx="100" cy="160" rx="50" ry="8" fill="rgba(0,0,0,0.2)"/>
+</svg>
